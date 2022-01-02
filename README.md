@@ -26,14 +26,18 @@ But, if pressed, how would you **prove** it?
 
 Here I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I  utilized  a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a bit of work to create a representative model of weather across world cities.
 
-![Weatherpy](output_data/Fig1.png)
+
 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 
 * Temperature (F) vs. Latitude
+![Weatherpy](output_data/Fig1.png)
 * Humidity (%) vs. Latitude
+![Humidity](output_data/Fig2.png)
 * Cloudiness (%) vs. Latitude
+![Cloudiness](output_data/Fig3.png)
 * Wind Speed (mph) vs. Latitude
+![windSpeed](output_data/Fig4.png)
 
 After each plot, add a sentence or two explaining what the code is analyzing.
 
