@@ -4,20 +4,20 @@
 
 ## Part I - WeatherPy
 
-Here I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I  utilized  a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a bit of work to create a representative model of weather across world cities.
+Here I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I  utilized  a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), to create a representative model of weather across world cities.
 
 
 
-The first was to create a series of scatter plots to showcase the following relationships:
+The first was to create a series of scatter plots to showcase relationships with Temperature vs Latitude, Humiditiy vs Latitude, Cloudiness vs Latitude and Wind speed vs Latitude.
 
 * Temperature (F) vs. Latitude
-![Weatherpy](output_data/Fig1.png)
+ ![Weatherpy](output_data/Fig1.png)
 * Humidity (%) vs. Latitude
-![Humidity](output_data/Fig2.png)
+ ![Humidity](output_data/Fig2.png)
 * Cloudiness (%) vs. Latitude
-![Cloudiness](output_data/Fig3.png)
+ ![Cloudiness](output_data/Fig3.png)
 * Wind Speed (mph) vs. Latitude
-![windSpeed](output_data/Fig4.png)
+ ![windSpeed](output_data/Fig4.png)
 
 
 The second requirement is to run linear regression on each relationship. This time,then separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
