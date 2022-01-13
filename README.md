@@ -1,6 +1,6 @@
-# Python API  - What's the Weather Like?
+# Python API  - Linear Regressions and Scatter Plots
 
-##
+
 
 ## Part I - WeatherPy
 
@@ -19,17 +19,23 @@ The first was to create a series of scatter plots to showcase relationships with
 * Wind Speed (mph) vs. Latitude
  ![windSpeed](output_data/Fig4.png)
 
+Secondly I ran linear regression on each relationship. Then separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
-The second requirement is to run linear regression on each relationship. This time,then separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+* Northern Hemisphere - Temperature (F) vs. Latitude![Screen Shot 2022-01-13 at 4 48 00 AM](https://user-images.githubusercontent.com/33403205/149308110-d2fd3fa8-e036-4427-9ae8-ae0e680e7ed0.png)
 
-* Northern Hemisphere - Temperature (F) vs. Latitude
-* Southern Hemisphere - Temperature (F) vs. Latitude
+* Southern Hemisphere - Temperature (F) vs. Latitude![Screen Shot 2022-01-13 at 4 48 05 AM](https://user-images.githubusercontent.com/33403205/149307792-fe0f9e1f-918a-46cf-abd6-4554e94ec943.png)
+
 * Northern Hemisphere - Humidity (%) vs. Latitude
-* Southern Hemisphere - Humidity (%) vs. Latitude
-* Northern Hemisphere - Cloudiness (%) vs. Latitude
-* Southern Hemisphere - Cloudiness (%) vs. Latitude
-* Northern Hemisphere - Wind Speed (mph) vs. Latitude
-* Southern Hemisphere - Wind Speed (mph) vs. Latitude
+* Southern Hemisphere - Humidity (%) vs. Latitude![Screen Shot 2022-01-13 at 4 48 11 AM](https://user-images.githubusercontent.com/33403205/149308015-b776cfc2-920f-4501-b879-6c9cf76e27f3.png)
+
+* Northern Hemisphere - Cloudiness (%) vs. Latitude![Screen Shot 2022-01-13 at 4 48 16 AM](https://user-images.githubusercontent.com/33403205/149307969-278bc4a9-9ce5-4cf8-8ba8-62afe24c8d84.png)
+
+* Southern Hemisphere - Cloudiness (%) vs. Latitude![Screen Shot 2022-01-13 at 4 48 32 AM](https://user-images.githubusercontent.com/33403205/149307843-ae9a2aeb-ec4f-439a-9ba8-e647a125fcce.png)
+
+* Northern Hemisphere - Wind Speed (mph) vs. Latitude![Screen Shot 2022-01-13 at 4 48 35 AM](https://user-images.githubusercontent.com/33403205/149307925-6172ee99-c0aa-47b7-a8bd-732f8abb569f.png)
+
+* Southern Hemisphere - Wind Speed (mph) vs. Latitude![Screen Shot 2022-01-13 at 4 48 38 AM](https://user-images.githubusercontent.com/33403205/149307630-2b111fe9-7940-4088-b6b4-ab85837a59ba.png)
+
 
 
 
