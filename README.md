@@ -13,9 +13,9 @@ The first was to create a series of scatter plots to showcase relationships with
 * Temperature (F) vs. Latitude
  ![Weatherpy](output_data/Fig1.png)
 * Humidity (%) vs. Latitude
- ![Humidity](output_data/Fig2.png)
+  ![Humidity](output_data/Fig2.png)
 * Cloudiness (%) vs. Latitude
- ![Cloudiness](output_data/Fig3.png)
+  ![Cloudiness](output_data/Fig3.png)
 * Wind Speed (mph) vs. Latitude
  ![windSpeed](output_data/Fig4.png)
 
