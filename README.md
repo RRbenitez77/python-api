@@ -19,7 +19,7 @@ The first was to create a series of scatter plots to showcase relationships with
 * Wind Speed (mph) vs. Latitude
  ![windSpeed](output_data/Fig4.png)
 
-Secondly I ran linear regression on each relationship. Then separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+Secondly I used linear regression on each relationship. Then separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 * Northern Hemisphere - Temperature (F) vs. Latitude![Screen Shot 2022-01-13 at 4 48 00 AM](https://user-images.githubusercontent.com/33403205/149308110-d2fd3fa8-e036-4427-9ae8-ae0e680e7ed0.png)
 
