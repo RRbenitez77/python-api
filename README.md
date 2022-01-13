@@ -1,26 +1,6 @@
-# Python API Homework - What's the Weather Like?
+# Python API  - What's the Weather Like?
 
-## Background
-
-Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
-
-Now, we know what you may be thinking: _"Duh. It gets hotter..."_
-
-But, if pressed, how would you **prove** it?
-
-![Equator](Images/equatorsign.png)
-
-### Before You Begin
-
-1. Create a new repository for this project called `python-api-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for both of the Python Challenges. Use a folder name that corresponds to the challenges, such as: **WeatherPy**.
-
-4. Inside the folder you just created, add new files called `WeatherPy.ipynb` and `VacationPy.ipynb`. These will be the main scripts to run for each analysis.
-
-5. Push the above changes to GitHub.
+##
 
 ## Part I - WeatherPy
 
@@ -28,7 +8,7 @@ Here I created a Python script to visualize the weather of 500+ cities across th
 
 
 
-The first requirement is to create a series of scatter plots to showcase the following relationships:
+The first was to create a series of scatter plots to showcase the following relationships:
 
 * Temperature (F) vs. Latitude
 ![Weatherpy](output_data/Fig1.png)
@@ -39,9 +19,8 @@ The first requirement is to create a series of scatter plots to showcase the fol
 * Wind Speed (mph) vs. Latitude
 ![windSpeed](output_data/Fig4.png)
 
-After each plot, add a sentence or two explaining what the code is analyzing.
 
-The second requirement is to run linear regression on each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+The second requirement is to run linear regression on each relationship. This time,then separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 * Northern Hemisphere - Temperature (F) vs. Latitude
 * Southern Hemisphere - Temperature (F) vs. Latitude
@@ -52,7 +31,7 @@ The second requirement is to run linear regression on each relationship. This ti
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
-After each pair of plots, take the time to explain what the linear regression is modeling. For example, describe any relationships you notice and any other analysis you may have.
+
 
 Your final notebook must:
 
@@ -126,4 +105,3 @@ As final considerations:
 
 - - -
 
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
