@@ -59,9 +59,9 @@ In addition:
 
   ![hotel map](Images/hotel_map.png)
 
-As final considerations:
 
-* analysis where created using Jupyter notebook via Matplotlib or Pandas plotting libraries.
+
+* analysis where performed using Jupyter notebook via Matplotlib or Pandas plotting libraries.
 
 
 
